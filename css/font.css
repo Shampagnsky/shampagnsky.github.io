@@ -1,0 +1,24 @@
+@font-face {
+    font-family:osmed;
+    src:url(../font/Oswald-Medium.woff) format("woff"),
+        url(../font/Oswald-Medium.woff2) format("woff2");
+    font-weight:500;
+}
+@font-face {
+    font-family:osreg;
+    src:url(../font/Oswald-Regular.woff) format("woff"),
+    url(../font/Oswald-Regular.woff2) format("woff2");
+    font-weight:400;
+}
+@font-face {
+    font-family:open;
+    src:url(../font/OpenSans-Regular.woff) format("woff"),
+    url(../font/OpenSans-Regular.woff2) format("woff2");
+    font-weight:400;
+}
+@font-face {
+    font-family:inter;
+    src:url(../font/Inter-Regular.woff) format("woff"),
+    url(../font/Inter-Regular.woff2) format("woff2");
+    font-weight:400;
+}
