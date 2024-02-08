@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="font.css">
+    <link rel="stylesheet"  href="reset.css">
+    <link rel="stylesheet"  href="style.css">
+    <title>Semitex</title>
+</head>
+<body>
+    <div class="page">
+        <svg class=" visually-hidden">
+            <symbol id="phone" viewBox="0 0 33 33">
+                <circle class="circle"  cx="16.5" cy="16.5" r="16.5"/>
+                <path d="M23.6616 20.453C23.6209 20.3304 23.3621 20.1499 22.8852 19.9117C22.756 19.8366 22.5719 19.7346 22.3338 19.6052C22.0954 19.4757 21.879 19.3565 21.685 19.2475C21.4906 19.1385 21.3085 19.033 21.1383 18.9309C21.1111 18.9105 21.026 18.851 20.883 18.752C20.7398 18.6533 20.6191 18.5801 20.5201 18.5323C20.4214 18.4848 20.3243 18.4609 20.2289 18.4609C20.0927 18.4609 19.9226 18.5581 19.7183 18.752C19.5141 18.9463 19.3267 19.1572 19.1565 19.3856C18.9863 19.6139 18.8057 19.8248 18.6152 20.019C18.4244 20.2132 18.2676 20.3102 18.1452 20.3102C18.0837 20.3102 18.007 20.293 17.9152 20.2592C17.8234 20.2252 17.7535 20.196 17.7056 20.1725C17.658 20.1485 17.5765 20.101 17.4606 20.0292C17.3445 19.9577 17.28 19.9185 17.2664 19.9117C16.3333 19.3939 15.533 18.8014 14.8654 18.1341C14.1981 17.4665 13.6054 16.6664 13.0878 15.7332C13.081 15.7196 13.0417 15.6549 12.9703 15.5391C12.8987 15.4233 12.851 15.3417 12.8272 15.2939C12.8033 15.2463 12.7744 15.1764 12.7404 15.0845C12.7064 14.9926 12.6893 14.916 12.6893 14.8546C12.6893 14.7321 12.7864 14.5754 12.9805 14.3846C13.1746 14.194 13.3858 14.0135 13.6139 13.8433C13.8422 13.6732 14.0532 13.4858 14.2474 13.2816C14.4415 13.0772 14.5385 12.907 14.5385 12.7708C14.5385 12.6756 14.5147 12.5784 14.4671 12.4797C14.4194 12.3807 14.3462 12.26 14.2474 12.1169C14.1485 11.9739 14.0889 11.8888 14.0685 11.8615C13.9664 11.6913 13.861 11.5091 13.7519 11.315C13.6427 11.1209 13.5237 10.9046 13.3942 10.6663C13.2648 10.428 13.1627 10.2441 13.0877 10.1147C12.8495 9.638 12.669 9.37908 12.5464 9.33835C12.4987 9.31792 12.4271 9.30762 12.3318 9.30762C12.1478 9.30762 11.9078 9.34161 11.6115 9.40981C11.3152 9.47791 11.0819 9.54933 10.9116 9.62437C10.5711 9.76732 10.2101 10.1828 9.82865 10.8705C9.48128 11.5106 9.30762 12.1441 9.30762 12.7707C9.30762 12.9544 9.31953 13.1332 9.34337 13.307C9.3672 13.4807 9.40978 13.6765 9.47115 13.8945C9.53242 14.1124 9.58184 14.2743 9.6192 14.3797C9.65659 14.4852 9.72641 14.6742 9.82861 14.9467C9.93067 15.2191 9.99204 15.3859 10.0125 15.4472C10.2508 16.1147 10.5335 16.7106 10.8604 17.2351C11.3982 18.1068 12.1322 19.0077 13.0619 19.9374C13.9917 20.867 14.8924 21.6009 15.7643 22.139C16.2887 22.4658 16.8849 22.7484 17.5523 22.987C17.6136 23.0073 17.7804 23.0685 18.0528 23.1709C18.3252 23.273 18.5143 23.3429 18.6198 23.3803C18.7253 23.4178 18.8872 23.4673 19.105 23.5286C19.3232 23.59 19.5189 23.6326 19.6925 23.6566C19.8663 23.6801 20.0451 23.6922 20.2289 23.6922C20.8555 23.6922 21.4891 23.5185 22.1293 23.1712C22.817 22.7899 23.2324 22.4289 23.3754 22.0881C23.4506 21.9179 23.5219 21.6847 23.59 21.3883C23.6583 21.0921 23.6922 20.8521 23.6922 20.6682C23.6924 20.5725 23.6822 20.5011 23.6616 20.453Z" />
+            </symbol>
+            <symbol id="arrow" viewBox="0 0 14 11"  >
+                <path d="M0.161538 6.05C0.0538462 5.94 0 5.775 0 5.665C0 5.555 0.0538462 5.39 0.161538 5.28L0.915385 4.51C1.13077 4.29 1.45385 4.29 1.66923 4.51L1.72308 4.565L4.68462 7.81C4.79231 7.92 4.95385 7.92 5.06154 7.81L12.2769 0.165H12.3308C12.5462 -0.055 12.8692 -0.055 13.0846 0.165L13.8385 0.935C14.0538 1.155 14.0538 1.485 13.8385 1.705L5.22308 10.835C5.11538 10.945 5.00769 11 4.84615 11C4.68462 11 4.57692 10.945 4.46923 10.835L0.269231 6.215L0.161538 6.05Z" fill="url(#paint0_linear_5_4415)"/>
+                <defs>
+                <linearGradient id="paint0_linear_5_4415" x1="7" y1="0" x2="7" y2="11" gradientUnits="userSpaceOnUse">
+                <stop offset="0.963205" stop-color="#48FFFF"/>
+                <stop offset="0.963205" stop-color="#25A4F1"/>
+                </linearGradient>
+                </defs>
+            </symbol>
+            <symbol id="lock" viewBox="0 0 16 16">
+                    <path d="M6.57773 6V7.3333H9.42227V6C9.42227 5.26465 8.78438 4.6667 8 4.6667C7.21563 4.6667 6.57773 5.26465 6.57773 6Z" fill="#969AF7"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4184 16 16 12.4183 16 8C16 3.58174 12.4184 0 8 0C3.58164 0 0 3.58174 0 8C0 12.4183 3.58164 16 8 16ZM10.1332 6V7.3333H11.2V12H4.8V7.3333H5.8668V6C5.8668 4.8957 6.82188 4 8 4C9.17813 4 10.1332 4.8957 10.1332 6Z" fill="#969AF7"/>
+            </symbol>
+            <symbol id="prev"  viewBox="0 0 7 13" >
+                <path d="M1.23602 12.9426C1.02039 12.943 0.811418 12.8679 0.645382 12.7304C0.551933 12.6529 0.474687 12.5577 0.418067 12.4504C0.361447 12.343 0.326566 12.2255 0.315421 12.1046C0.304277 11.9837 0.317088 11.8619 0.353121 11.7459C0.389154 11.63 0.447701 11.5224 0.525408 11.4291L4.65988 6.48249L0.673069 1.52666C0.59641 1.43226 0.539162 1.32364 0.504617 1.20705C0.470073 1.09045 0.458911 0.968178 0.471776 0.847256C0.48464 0.726333 0.521275 0.609145 0.579576 0.502427C0.637878 0.395709 0.716696 0.301565 0.8115 0.225407C0.906986 0.141391 1.01881 0.0780199 1.13995 0.0392693C1.26108 0.000518654 1.38893 -0.0127742 1.51544 0.000224432C1.64196 0.013223 1.76443 0.0522327 1.87516 0.114805C1.98589 0.177378 2.08249 0.262162 2.1589 0.363838L6.61638 5.90108C6.75212 6.06622 6.82632 6.27335 6.82632 6.48711C6.82632 6.70087 6.75212 6.908 6.61638 7.07313L2.00201 12.6104C1.90943 12.7221 1.79182 12.8103 1.65873 12.8681C1.52565 12.9258 1.38083 12.9513 1.23602 12.9426Z"/>
+            </symbol >
+            <symbol id="next"  viewBox="0 0 7 13" >
+                <path d="M1.23602 12.9426C1.02039 12.943 0.811418 12.8679 0.645382 12.7304C0.551933 12.6529 0.474687 12.5577 0.418067 12.4504C0.361447 12.343 0.326566 12.2255 0.315421 12.1046C0.304277 11.9837 0.317088 11.8619 0.353121 11.7459C0.389154 11.63 0.447701 11.5224 0.525408 11.4291L4.65988 6.48249L0.673069 1.52666C0.59641 1.43226 0.539162 1.32364 0.504617 1.20705C0.470073 1.09045 0.458911 0.968178 0.471776 0.847256C0.48464 0.726333 0.521275 0.609145 0.579576 0.502427C0.637878 0.395709 0.716696 0.301565 0.8115 0.225407C0.906986 0.141391 1.01881 0.0780199 1.13995 0.0392693C1.26108 0.000518654 1.38893 -0.0127742 1.51544 0.000224432C1.64196 0.013223 1.76443 0.0522327 1.87516 0.114805C1.98589 0.177378 2.08249 0.262162 2.1589 0.363838L6.61638 5.90108C6.75212 6.06622 6.82632 6.27335 6.82632 6.48711C6.82632 6.70087 6.75212 6.908 6.61638 7.07313L2.00201 12.6104C1.90943 12.7221 1.79182 12.8103 1.65873 12.8681C1.52565 12.9258 1.38083 12.9513 1.23602 12.9426Z"/>
+            </symbol >
+            <symbol id="down" viewBox="0 0 14 7">
+                <path d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"/>
+            </symbol>
+        </svg>
+        <section class="promo">
+            <div class="promo__wrap">
+                <div class="logo">
+                    <a class="logo__title" href="#">semitex</a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__ul">
+                        <li class="nav__list"><a class="nav__link" href="#">каталог</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">производители</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">для <span class="lower">кого мы работаем</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">сертификаты</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">о <span class="lower">нас</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#"><span class="upper">faq</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu">
+                    <span class="line"></span>
+                    <span class="pine"></span>
+                </button>
+                <div class="phonewrap">
+                    <svg class="phone"><use xlink:href="#phone"></use></svg>
+                    <div class="phonewrap__number"> <span class="diff">+7 (812)</span> 313-58-45</div>
+                </div>
+            </div>
+            <div class="promo__content">
+                    <div class="promo__info">
+                        <div class="promo__box">
+                            <h1 class="promo__title">Оптовые поставки</h1> 
+                            <h2 class="promo__subtitle">электронных компонентов</h2>
+                            <h2 class="promo__title">из китая день в день</h2>
+                            <p class="promo__text"> <span class="upper">К</span>омплексные поставки электронных компонентов и оборудования. <br>
+                            <span class="upper">П</span>одберем аналоги популярных брендов из Европы в условиях санкций.</p>
+                        </div>
+                        <div class="advantages">
+                            <div class="advantages__wrap">
+                                <svg class="arrow"><use xlink:href="#arrow"></use></svg>
+                                <p class="advantages__point">Отсрочка платежей для постоянных клиентов</p>
+                            </div>
+                            <div class="advantages__wrap">
+                                <svg class="arrow"><use xlink:href="#arrow"></use></svg>
+                                <p class="advantages__point">Бесплатная доставка по Москве и СПБ в течение 2х часов</p>
+                            </div>
+                            <div class="advantages__wrap">
+                                <svg class="arrow"><use xlink:href="#arrow"></use></svg>
+                                <p class="advantages__point">Квалифицированный персональный менеджер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__feedback">
+                        <div class="promo__feedback-up">
+                            <h2 class=promo__callback>закажите <br> обратный звонок</h2>
+                        </div>
+                        <div class="promo__feedback-down">
+                            <form  class="form" action="#">
+                                <div class="form__group">
+                                    <label class="label" for="text" >ваше имя*</label>
+                                    <input class="input" id="text"  type="text" placeholder="Иван Иванов">
+                                </div>
+                                <div class="form__group">
+                                    <label class="label" for="num">ваш номер*</label>
+                                    <input  class="input" id="num" type="tel" placeholder="+7 (_ _ _) _ _ _-_ _-_ _">
+                                </div>
+                                <div class="form__group jump">
+                                    <button class="form__btn" type="submit">заказать звонок</button>
+                                    <div class="form__ground">
+                                        <svg class="lock"><use xlink:href="#lock"></use></svg>
+                                        <p class="form__text">Мы гарантируем конфиденциальность данных</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <div class="content__wrap">
+                    <div class="content__group">
+                        <h2 class="content__title">Почему с нами выгодно</h2>
+                        <p class="content__text">С 1996 года мы занимаемся оптовыми поставками электронных компонентов от ведущих производителей из Европы и Азии для Российских потребителей.</p>
+                    </div>
+                    <div class="content__box">
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture >
+                                    <source type="image/avif" srcset="img/block2/Group1.avif">
+                                    <source type="image/webp" srcset="img/block2/Group1.webp">
+                                    <img class="image" src="img/block2/Group1.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad">
+                                <h3 class="content__header">Качественная продукция</h3>
+                                <p  class="content__info">Все наши товары сертифицированы и имеют сопроводительную документацию.</p>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture >
+                                    <source type="image/avif" srcset="img/block2/Group2.avif">
+                                    <source type="image/webp" srcset="img/block2/Group2.webp">
+                                    <img class="image" src="img/block2/Group2.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad">
+                                <h3 class="content__header">Индивидуальный подход</h3>
+                                <p class="content__info">Возможность изготовления компонентов специально для вас на заводах-изготовителя.</p>
+                            </div>
+                            </div>
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture>
+                                    <source type="image/avif" srcset="img/block2/group3.avif">
+                                    <source type="image/webp" srcset="img/block2/group3.webp">
+                                    <img class="image" src="img/block2/group3.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad">    
+                                <h3 class="content__header">Бесплатная доставка</h3>
+                                <p  class="content__info">При наличии товара на складе и заказе от 10 000 рублей, доставим бесплатно по Москве и СПБ в течение 2х часов.</p>
+                            </div>    
+                        </div>
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture >
+                                    <source type="image/avif" srcset="img/block2/Group4.avif">
+                                    <source type="image/webp" srcset="img/block2/Group4.webp">
+                                    <img class="image" src="img/block2/Group4.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad">  
+                                <h3 class="content__header">Подбираем аналоги</h3>
+                                <p  class="content__info">Поможем подобрать аналоги популярных европейских брендов в условиях санкций.</p>
+                            </div>   
+                        </div>
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture>
+                                    <source type="image/avif" srcset="img/block2/Group5.avif">
+                                    <source type="image/webp" srcset="img/block2/Group5.webp">
+                                    <img class="image" src="img/block2/Group5.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad"> 
+                                <h3 class="content__header">Резервный запас компонентов</h3>
+                                <p  class="content__info">Хранение товара на наших складах для постоянных клиентов.</p>
+                            </div>   
+                        </div>
+                        <div class="content__card">
+                            <div class="content__picture">
+                                <picture>
+                                    <source type="image/avif" srcset="img/block2/Group6.avif">
+                                    <source type="image/webp" srcset="img/block2/Group6.webp">
+                                    <img class="image" src="img/block2/Group6.png" alt="img">
+                                </picture>
+                                <img class="half" src="img/block2/half.png" alt="img">
+                            </div>
+                            <div class="content__cascad"> 
+                                <h3 class="content__header">Гибкая система оплаты</h3>
+                                <p  class="content__info">Отсрочка платежей для постоянных клиентов.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="firma">
+                <div class="firma__wrap">
+                    <div class="firma__box">
+                        <h2 class="firma__title">Наши производители</h2>
+                    </div>
+                    <div class="firma__carousel">
+                        <button class="firma__button--left"  onclick="moveSlide('left')">
+                            <svg class="next"><use xlink:href="#next"></use></svg></button>
+                        <div class="firma__slider">
+                            <div class="firma__logo">
+                                <div class="firma__card">
+                                    <div class="firma__picture">
+                                        <picture>
+                                            <source type="image/avif" srcset="img/block3/mar.avif">
+                                            <source type="image/webp" srcset="img/block3/mar.webp">
+                                            <img class="fimage" src="img/block3/mar.png" alt="img">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="firma__card">
+                                    <div class="firma__picture">
+                                        <picture>
+                                            <source type="image/avif" srcset="img/block3/grass.avif">
+                                            <source type="image/webp" srcset="img/block3/grass.webp">
+                                            <img class="fimage" src="img/block3/grass.png" alt="img">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="firma__card">
+                                    <div class="firma__picture">
+                                        <picture>
+                                            <source type="image/avif" srcset="img/block3/fud.avif">
+                                            <source type="image/webp" srcset="img/block3/fud.webp">
+                                            <img class="fimage" src="img/block3/fud.png" alt="img">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="firma__card">
+                                    <div class="firma__picture">
+                                        <picture>
+                                            <source type="image/avif" srcset="img/block3/for.avif">
+                                            <source type="image/webp" srcset="img/block3/for.webp">
+                                            <img class="fimage" src="img/block3/for.png" alt="img">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="firma__card">
+                                    <div class="firma__picture">
+                                        <picture>
+                                            <source type="image/avif" srcset="img/block3/aer.avif">
+                                            <source type="image/webp" srcset="img/block3/aer.webp">
+                                            <img class="fimage" src="img/block3/aer.png" alt="img">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="firma__button--right"  onclick="moveSlide('right')">
+                            <svg class="prev"><use xlink:href="#prev"></use></svg>
+                        </button>
+                    </div>
+                    <div class="firma__bottom">
+                        <p class="firma__text">Lorem ipsum dolor sit amet consectetur. Non eget blandit in euismod felis id quisque nunc. Non orci lacus elit mauris velit gravida imperdiet id. Ipsum pulvinar ac ut sociis. Sed magna gravida consequat et euismod aenean quis mauris. Ut etiam egestas ultrices faucibus ultrices nisl enim consequat faucibus. Nibh id leo ullamcorper eleifend. Id at commodo interdum et leo.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="work">
+            <div class="work__top">
+                <h2 class="work__title">Схема работы</h2>
+                <p class="work__text">Lorem ipsum dolor sit amet consectetur. Augue velit in enim sagittis imperdiet sit mauris. Vitae sit in fusce massa amet.</p>
+            </div>
+            <div class="work__box">
+                <div class="work__cardone">
+                    <div class="work__number">01</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">вы оставляете заявку<br> <span  class="hidden">вы оставляете</span></h3>
+                        <p class="work__info--text">Отправить запрос вы можете любым удобным для вас способом: например, через форму на сайте. Также вы можете связаться с нами напрямую.</p>
+                    </div>
+                    <img class="halfone" src="img/block2/half.png" alt="img">
+                </div>
+                <div class="work__cardtwo">
+                    <div class="work__number">02</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">мы проверяем <br>наличие позиций</h3>
+                        <p class="work__info--text">Проверяем наличие на складе, а также актуальность производства (возможна замена, если необходимо.) Если требуется замена - подбираем аналоги и привозим на заказ.</p>
+                    </div>
+                    <img class="halftwo" src="img/block2/half.png" alt="img">
+                </div>
+                <div class="work__cardtree">
+                    <div class="work__number">03</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">формируем коммерческое предложение</h3>
+                        <p class="work__info--text">На данном этапе мы с вами согласуем ценовое предложение, обговариваем сроки поставки и условия оплаты.</p>
+                    </div>
+                    <img class="halftree" src="img/block2/half.png" alt="img">
+                </div>
+                <div class="work__cardsix">
+                    <div class="work__number">06</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">вы получаете товар <span  class="hidden">вы оставляете</span></h3>
+                        <p class="work__info--text">Поставляем вам товар в надлежащей упаковке в сопровождении оригиналов всех необходимых документов либо вы забираете его самовывозом.</p>
+                    </div>
+                    <img class="halfsix" src="img/block2/half.png" alt="img">
+                </div>
+                <div class="work__cardfive">
+                    <div class="work__number">05</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">мы выполняем заказ<span  class="hidden">вы оставляете</span></h3>
+                        <p class="work__info--text">Товар поступает на склад в Москву или Санкт-Петербург, где мы сверяем правильность поставки и начинаем сборку.</p>
+                    </div>
+                    <img class="halffive" src="img/block2/half.png" alt="img">
+                </div>
+                <div class="work__cardfore">
+                    <div class="work__number">04</div>
+                    <div class="work__info">
+                        <h3 class="work__title--info">проводим оплату <span  class="hidden">вы оставляете tfdfbdfbd</span></h3>
+                        <p class="work__info--text">Далее, после получения авансового платежа, мы размещаем заказ.</p>
+                    </div>
+                    <img class="halffore" src="img/block2/half.png" alt="img">
+                </div>
+            </div>
+            <div class="work__bottom">
+                <button class="work__btn" type="submit">оставить заявку</button>
+            </div>
+        </section>
+        <section class="answer">
+            <div class="answer__wrap">
+                <h2 class="answer__title">Ответы на самые популярные вопросы в сфере</h2>
+                    <div class="answer__box">
+                        <div class="answer__header">
+                            <h3 class="answer__client">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <button class="answer__btn">
+                                <svg class="down"><use xlink:href="#down"></use></svg>
+                            </button>
+                        </div>
+                         <div class="answer__answer">
+                            <p class="answer__text">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants.</p>
+                            <p class="answer__text">Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence.
+                            </p>
+                            <p class="answer__text">At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing.</p>
+                        </div>
+                        <div class="answer__header">
+                            <h3 class="answer__client">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <button class="answer__btn">
+                                <svg class="down"><use xlink:href="#down"></use></svg>
+                            </button>
+                        </div>
+                         <div class="answer__answer">
+                            <p class="answer__text">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants.</p>
+                            <p class="answer__text">Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence.
+                            </p>
+                            <p class="answer__text">At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing.</p>
+                        </div>
+                        <div class="answer__header">
+                            <h3 class="answer__client">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <button class="answer__btn">
+                                <svg class="down"><use xlink:href="#down"></use></svg>
+                            </button>
+                        </div>
+                         <div class="answer__answer">
+                            <p class="answer__text">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants.</p>
+                            <p class="answer__text">Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence.
+                            </p>
+                            <p class="answer__text">At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing.</p>
+                        </div>
+                        <div class="answer__header">
+                            <h3 class="answer__client">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <button class="answer__btn">
+                                <svg class="down"><use xlink:href="#down"></use></svg>
+                            </button>
+                        </div>
+                         <div class="answer__answer">
+                            <p class="answer__text">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants.</p>
+                            <p class="answer__text">Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence.
+                            </p>
+                            <p class="answer__text">At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing.</p>
+                        </div>
+                        <div class="answer__header">
+                            <h3 class="answer__client">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <button class="answer__btn">
+                                <svg class="down"><use xlink:href="#down"></use></svg>
+                            </button>
+                        </div>
+                         <div class="answer__answer">
+                            <p class="answer__text">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants.</p>
+                            <p class="answer__text">Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence.
+                            </p>
+                            <p class="answer__text">At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__wrap">
+                <div class="logo">
+                    <a class="logo__title" href="#">semitex</a>
+                </div>
+                <nav class="nav van">
+                    <ul class="nav__ul">
+                        <li class="nav__list"><a class="nav__link" href="#">каталог</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">производители</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">для <span class="lower">кого мы работаем</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">сертификаты</a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">о <span class="lower">нас</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#"><span class="upper">faq</span></a></li>
+                        <li class="nav__list"><a class="nav__link" href="#">контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="footer__btn">оставить заявку</button>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

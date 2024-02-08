@@ -1,0 +1,30 @@
+@font-face {
+    font-family:light;
+    src:url(../fonts/FuturaLightC.woff) format("woff"),
+        url(../fonts/FuturaLightC.woff2) format("woff2");
+    font-weight:300;
+}
+@font-face {
+    font-family:book;
+    src:url(../fonts/FuturaBookC.woff) format("woff"),
+    url(../fonts/FuturaBookC.woff2) format("woff2");
+    font-weight:400;
+}
+@font-face {
+    font-family:reg;
+    src:url(../fonts/FuturaFuturisC.woff) format("woff"),
+    url(../fonts/FuturaFuturisC.woff2) format("woff2");
+    font-weight:400;
+}
+@font-face {
+    font-family:demi;
+    src:url(../fonts/Futurademic.woff) format("woff"),
+    url(../fonts/FuturaFuturisC-Bold.woff2) format("woff2");
+    font-weight:600;
+}
+@font-face {
+    font-family:bold;
+    src:url(../fonts/FuturaFuturisC-Bold.woff) format("woff"),
+    url(../fonts/FuturaFuturisC-Bold.woff2) format("woff2");
+    font-weight:700;
+}
